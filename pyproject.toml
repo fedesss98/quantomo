@@ -1,0 +1,22 @@
+[project]
+name = "quantomo"
+version = "0.1.0"
+dependencies = [
+  "numpy",
+  "qiskit",
+  "click",
+  "pyyaml"
+]
+
+[project.optional-dependencies]
+all = [
+  "matplotlib",
+  "pandas"
+]
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+run = "quantomo.cli:main"

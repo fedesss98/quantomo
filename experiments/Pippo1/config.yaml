@@ -1,0 +1,8 @@
+name: Pippo1
+seed: 42
+circuit:
+  n-qubits: 3
+  depth: 10
+  shots: 2048
+experiment:
+  measurements: 100
